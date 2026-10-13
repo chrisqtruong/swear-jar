@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-13T17:47:37+00:00",
+ "generated": "2026-10-13T17:52:40+00:00",
  "live": false,
  "machines": 1,
  "pricing": {
@@ -110,10 +110,10 @@
     "name": "Everything else",
     "color": "#7d7699",
     "theme": "",
-    "cost": 85.5075,
-    "tokens": 167610199,
-    "output": 1019945,
-    "turns": 225
+    "cost": 86.0543,
+    "tokens": 167724403,
+    "output": 1021687,
+    "turns": 226
    }
   ],
   "themes": [],
@@ -407,21 +407,21 @@
     "date": "2026-10-13",
     "by": {
      "other": {
-      "cost": 3.461,
-      "tokens": 4711733,
-      "output": 25102
+      "cost": 4.0078,
+      "tokens": 4825937,
+      "output": 26844
      }
     }
    }
   ],
   "totals": {
-   "cost": 1262.72,
-   "tokens": 3543675857,
-   "input": 16464,
-   "output": 7393378,
-   "cache_write": 53317903,
-   "cache_read": 3482948112,
-   "turns": 986
+   "cost": 1263.2668,
+   "tokens": 3543790061,
+   "input": 16468,
+   "output": 7395120,
+   "cache_write": 53380656,
+   "cache_read": 3482997817,
+   "turns": 987
   },
   "models": [
    {
@@ -474,10 +474,10 @@
     "maker": "Anthropic",
     "family": "haiku",
     "priced": false,
-    "cost": 0.4634,
-    "tokens": 187021,
-    "output": 2637,
-    "replies": 4
+    "cost": 1.0103,
+    "tokens": 301225,
+    "output": 4379,
+    "replies": 6
    }
   ],
   "alignment": 0,
