@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-13T17:52:40+00:00",
+ "generated": "2026-10-13T17:57:44+00:00",
  "live": false,
  "machines": 1,
  "pricing": {
@@ -110,10 +110,10 @@
     "name": "Everything else",
     "color": "#7d7699",
     "theme": "",
-    "cost": 86.0543,
-    "tokens": 167724403,
-    "output": 1021687,
-    "turns": 226
+    "cost": 86.8121,
+    "tokens": 168123055,
+    "output": 1026758,
+    "turns": 229
    }
   ],
   "themes": [],
@@ -407,21 +407,21 @@
     "date": "2026-10-13",
     "by": {
      "other": {
-      "cost": 4.0078,
-      "tokens": 4825937,
-      "output": 26844
+      "cost": 4.7656,
+      "tokens": 5224589,
+      "output": 31915
      }
     }
    }
   ],
   "totals": {
-   "cost": 1263.2668,
-   "tokens": 3543790061,
-   "input": 16468,
-   "output": 7395120,
-   "cache_write": 53380656,
-   "cache_read": 3482997817,
-   "turns": 987
+   "cost": 1264.0246,
+   "tokens": 3544188713,
+   "input": 16478,
+   "output": 7400191,
+   "cache_write": 53454713,
+   "cache_read": 3483317331,
+   "turns": 990
   },
   "models": [
    {
@@ -458,6 +458,17 @@
     "replies": 18
    },
    {
+    "id": "claude-haiku-5-5",
+    "name": "Claude Haiku 5.5",
+    "maker": "Anthropic",
+    "family": "haiku",
+    "priced": false,
+    "cost": 1.7681,
+    "tokens": 699877,
+    "output": 9450,
+    "replies": 11
+   },
+   {
     "id": "claude-sonnet-5-5",
     "name": "Claude Sonnet 5.5",
     "maker": "Anthropic",
@@ -467,17 +478,6 @@
     "tokens": 3553798,
     "output": 10329,
     "replies": 36
-   },
-   {
-    "id": "claude-haiku-5-5",
-    "name": "Claude Haiku 5.5",
-    "maker": "Anthropic",
-    "family": "haiku",
-    "priced": false,
-    "cost": 1.0103,
-    "tokens": 301225,
-    "output": 4379,
-    "replies": 6
    }
   ],
   "alignment": 0,
