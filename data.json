@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-14T00:12:08+00:00",
+ "generated": "2026-10-14T14:01:38+00:00",
  "live": false,
  "machines": 1,
  "pricing": {
@@ -13,7 +13,7 @@
   "id": "all",
   "product": "All projects",
   "overview": true,
-  "sessions": 42,
+  "sessions": 43,
   "buckets": [
    {
     "id": "vox2",
@@ -40,9 +40,9 @@
     "name": "Personal site",
     "color": "#ff4d8d",
     "theme": "",
-    "cost": 640.3776,
-    "tokens": 1926510652,
-    "output": 3263383,
+    "cost": 755.7907,
+    "tokens": 2312833813,
+    "output": 4010934,
     "turns": 318
    },
    {
@@ -110,10 +110,10 @@
     "name": "Everything else",
     "color": "#7d7699",
     "theme": "",
-    "cost": 95.3047,
-    "tokens": 178326500,
-    "output": 1110246,
-    "turns": 247
+    "cost": 101.4519,
+    "tokens": 182401866,
+    "output": 1111776,
+    "turns": 249
    }
   ],
   "themes": [],
@@ -292,9 +292,9 @@
       "output": 189398
      },
      "personal-site": {
-      "cost": 196.7167,
-      "tokens": 644880345,
-      "output": 1182181
+      "cost": 296.3822,
+      "tokens": 985346076,
+      "output": 1856924
      },
      "weather-in-dots": {
       "cost": 4.5102,
@@ -317,9 +317,9 @@
       "output": 15601
      },
      "personal-site": {
-      "cost": 96.406,
-      "tokens": 294316916,
-      "output": 446512
+      "cost": 112.1536,
+      "tokens": 340174346,
+      "output": 519320
      },
      "weather-in-dots": {
       "cost": 16.5611,
@@ -412,16 +412,26 @@
       "output": 115403
      }
     }
+   },
+   {
+    "date": "2026-10-14",
+    "by": {
+     "other": {
+      "cost": 6.1473,
+      "tokens": 4075366,
+      "output": 1530
+     }
+    }
    }
   ],
   "totals": {
-   "cost": 1272.5172,
-   "tokens": 3554392158,
-   "input": 16637,
-   "output": 7483679,
-   "cache_write": 54069870,
-   "cache_read": 3492821972,
-   "turns": 1008
+   "cost": 1394.0776,
+   "tokens": 3944790685,
+   "input": 18177,
+   "output": 8232760,
+   "cache_write": 57742052,
+   "cache_read": 3878797696,
+   "turns": 1010
   },
   "models": [
    {
@@ -430,10 +440,10 @@
     "maker": "Anthropic",
     "family": "opus",
     "priced": true,
-    "cost": 1237.7546,
-    "tokens": 3487813616,
-    "output": 6896798,
-    "replies": 7723
+    "cost": 1359.315,
+    "tokens": 3878212143,
+    "output": 7645879,
+    "replies": 8493
    },
    {
     "id": "claude-sonnet-5",
@@ -1312,9 +1322,9 @@
      "name": "Features & UI",
      "color": "#4dd2ff",
      "theme": "build",
-     "cost": 493.0832,
-     "tokens": 1462433962,
-     "output": 2613056,
+     "cost": 576.5522,
+     "tokens": 1737627659,
+     "output": 3217045,
      "turns": 215
     },
     {
@@ -1322,9 +1332,9 @@
      "name": "Bug squashing",
      "color": "#ff6b3d",
      "theme": "upkeep",
-     "cost": 11.8771,
-     "tokens": 45579205,
-     "output": 86745,
+     "cost": 13.5887,
+     "tokens": 52460730,
+     "output": 98356,
      "turns": 12
     },
     {
@@ -1332,9 +1342,9 @@
      "name": "Tests & quality",
      "color": "#ff4d8d",
      "theme": "build",
-     "cost": 14.165,
-     "tokens": 55316764,
-     "output": 100032,
+     "cost": 16.9436,
+     "tokens": 67074924,
+     "output": 113950,
      "turns": 11
     },
     {
@@ -1342,9 +1352,9 @@
      "name": "Releases & Git",
      "color": "#3ddc84",
      "theme": "upkeep",
-     "cost": 47.7633,
-     "tokens": 112775174,
-     "output": 133290,
+     "cost": 49.6358,
+     "tokens": 119892401,
+     "output": 143203,
      "turns": 22
     },
     {
@@ -1352,9 +1362,9 @@
      "name": "Docs & planning",
      "color": "#f2f2f2",
      "theme": "upkeep",
-     "cost": 51.3715,
-     "tokens": 158097178,
-     "output": 216115,
+     "cost": 72.9846,
+     "tokens": 227321169,
+     "output": 299837,
      "turns": 39
     },
     {
@@ -1372,9 +1382,9 @@
      "name": "Learning & questions",
      "color": "#ffe14d",
      "theme": "upkeep",
-     "cost": 5.7511,
-     "tokens": 22950531,
-     "output": 35877,
+     "cost": 9.7194,
+     "tokens": 39099092,
+     "output": 60275,
      "turns": 16
     }
    ],
@@ -1384,7 +1394,7 @@
      "name": "Building the product",
      "blurb": "New features and making them better.",
      "roadmap": true,
-     "cost": 507.2482,
+     "cost": 593.4958,
      "value_share": 0.0,
      "gap": -1.0
     },
@@ -1393,7 +1403,7 @@
      "name": "Upkeep",
      "blurb": "Bugs, releases, docs, setup and learning. Not on the roadmap, but it keeps the lights on.",
      "roadmap": false,
-     "cost": 133.1294,
+     "cost": 162.2949,
      "value_share": null,
      "gap": null
     }
@@ -1473,34 +1483,34 @@
      "date": "2026-10-06",
      "by": {
       "features": {
-       "cost": 160.689,
-       "tokens": 518155011,
-       "output": 1011130
+       "cost": 229.2192,
+       "tokens": 750752120,
+       "output": 1547966
       },
       "ship": {
-       "cost": 3.6327,
-       "tokens": 14379965,
-       "output": 19179
+       "cost": 5.5051,
+       "tokens": 21497192,
+       "output": 29092
       },
       "bugs": {
-       "cost": 4.0349,
-       "tokens": 15214657,
-       "output": 29834
+       "cost": 4.9376,
+       "tokens": 18835340,
+       "output": 35790
       },
       "docs": {
-       "cost": 21.6131,
-       "tokens": 69223991,
-       "output": 83722
+       "cost": 43.2263,
+       "tokens": 138447982,
+       "output": 167444
       },
       "learn": {
-       "cost": 3.9683,
-       "tokens": 16148561,
-       "output": 24398
+       "cost": 7.9366,
+       "tokens": 32297122,
+       "output": 48796
       },
       "quality": {
-       "cost": 2.7787,
-       "tokens": 11758160,
-       "output": 13918
+       "cost": 5.5574,
+       "tokens": 23516320,
+       "output": 27836
       }
      }
     },
@@ -1508,14 +1518,14 @@
      "date": "2026-10-07",
      "by": {
       "features": {
-       "cost": 79.2816,
-       "tokens": 225237936,
-       "output": 343947
+       "cost": 94.2203,
+       "tokens": 267834524,
+       "output": 411100
       },
       "bugs": {
-       "cost": 5.8943,
-       "tokens": 23379148,
-       "output": 38575
+       "cost": 6.7033,
+       "tokens": 26639990,
+       "output": 44230
       },
       "setup": {
        "cost": 10.5784,
@@ -1596,12 +1606,12 @@
     }
    ],
    "totals": {
-    "cost": 640.3776,
-    "tokens": 1926510652,
-    "input": 7802,
-    "output": 3263383,
-    "cache_write": 24498753,
-    "cache_read": 1898740714,
+    "cost": 755.7907,
+    "tokens": 2312833813,
+    "input": 9330,
+    "output": 4010934,
+    "cache_write": 27491212,
+    "cache_read": 2281322337,
     "turns": 318
    },
    "models": [
@@ -1611,10 +1621,10 @@
      "maker": "Anthropic",
      "family": "opus",
      "priced": true,
-     "cost": 639.5268,
-     "tokens": 1925032505,
-     "output": 3253496,
-     "replies": 3873
+     "cost": 754.94,
+     "tokens": 2311355666,
+     "output": 4001047,
+     "replies": 4637
     },
     {
      "id": "claude-sonnet-5-5",
@@ -1628,7 +1638,7 @@
      "replies": 14
     }
    ],
-   "alignment": 0.792,
+   "alignment": 0.785,
    "roadmap": {
     "items": [],
     "done": []
