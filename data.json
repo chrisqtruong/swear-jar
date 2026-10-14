@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-14T14:01:38+00:00",
+ "generated": "2026-10-14T14:16:46+00:00",
  "live": false,
  "machines": 1,
  "pricing": {
@@ -20,10 +20,10 @@
     "name": "Vox2",
     "color": "#4dd2ff",
     "theme": "",
-    "cost": 346.9126,
-    "tokens": 1029782480,
-    "output": 1961706,
-    "turns": 334
+    "cost": 348.721,
+    "tokens": 1031806071,
+    "output": 1970010,
+    "turns": 348
    },
    {
     "id": "purrmodoro",
@@ -110,10 +110,10 @@
     "name": "Everything else",
     "color": "#7d7699",
     "theme": "",
-    "cost": 101.4519,
-    "tokens": 182401866,
-    "output": 1111776,
-    "turns": 249
+    "cost": 100.3467,
+    "tokens": 180910154,
+    "output": 1106932,
+    "turns": 238
    }
   ],
   "themes": [],
@@ -406,16 +406,26 @@
    {
     "date": "2026-10-13",
     "by": {
+     "vox2": {
+      "cost": 1.1052,
+      "tokens": 1491712,
+      "output": 4844
+     },
      "other": {
-      "cost": 13.2582,
-      "tokens": 15428034,
-      "output": 115403
+      "cost": 12.153,
+      "tokens": 13936322,
+      "output": 110559
      }
     }
    },
    {
     "date": "2026-10-14",
     "by": {
+     "vox2": {
+      "cost": 0.7033,
+      "tokens": 531879,
+      "output": 3460
+     },
      "other": {
       "cost": 6.1473,
       "tokens": 4075366,
@@ -425,13 +435,13 @@
    }
   ],
   "totals": {
-   "cost": 1394.0776,
-   "tokens": 3944790685,
-   "input": 18177,
-   "output": 8232760,
-   "cache_write": 57742052,
-   "cache_read": 3878797696,
-   "turns": 1010
+   "cost": 1394.7809,
+   "tokens": 3945322564,
+   "input": 18189,
+   "output": 8236220,
+   "cache_write": 57809786,
+   "cache_read": 3879258369,
+   "turns": 1013
   },
   "models": [
    {
@@ -440,10 +450,10 @@
     "maker": "Anthropic",
     "family": "opus",
     "priced": true,
-    "cost": 1359.315,
-    "tokens": 3878212143,
-    "output": 7645879,
-    "replies": 8493
+    "cost": 1360.0182,
+    "tokens": 3878744022,
+    "output": 7649339,
+    "replies": 8499
    },
    {
     "id": "claude-sonnet-5",
@@ -506,7 +516,7 @@
    "id": "vox2",
    "color": "#4dd2ff",
    "product": "Vox2",
-   "sessions": 6,
+   "sessions": 7,
    "buckets": [
     {
      "id": "meaning",
@@ -543,10 +553,10 @@
      "name": "Mac version",
      "color": "#9b6bff",
      "theme": "reach",
-     "cost": 17.7934,
-     "tokens": 52203134,
-     "output": 116999,
-     "turns": 23
+     "cost": 17.8992,
+     "tokens": 52480566,
+     "output": 118217,
+     "turns": 24
     },
     {
      "id": "bugs",
@@ -573,20 +583,20 @@
      "name": "Docs & planning",
      "color": "#f2f2f2",
      "theme": "upkeep",
-     "cost": 57.9727,
-     "tokens": 212880787,
-     "output": 388123,
-     "turns": 53
+     "cost": 58.4355,
+     "tokens": 213385789,
+     "output": 390329,
+     "turns": 56
     },
     {
      "id": "learn",
      "name": "Learning & questions",
      "color": "#ffe14d",
      "theme": "upkeep",
-     "cost": 3.1368,
-     "tokens": 11979868,
-     "output": 22983,
-     "turns": 6
+     "cost": 4.3767,
+     "tokens": 13221025,
+     "output": 27863,
+     "turns": 16
     }
    ],
    "themes": [
@@ -613,7 +623,7 @@
      "name": "Reach more people",
      "blurb": "Mac, Intel, signed installers: Vox2 on more computers.",
      "roadmap": true,
-     "cost": 17.7934,
+     "cost": 17.8992,
      "value_share": 0.081,
      "gap": -0.007
     },
@@ -622,7 +632,7 @@
      "name": "Upkeep",
      "blurb": "Bugs, releases, docs and learning. Not on the roadmap, but it keeps the lights on.",
      "roadmap": false,
-     "cost": 143.5116,
+     "cost": 145.2143,
      "value_share": null,
      "gap": null
     }
@@ -817,16 +827,46 @@
        "output": 354
       }
      }
+    },
+    {
+     "date": "2026-10-13",
+     "by": {
+      "docs": {
+       "cost": 0.4627,
+       "tokens": 505002,
+       "output": 2206
+      },
+      "learn": {
+       "cost": 0.6425,
+       "tokens": 986710,
+       "output": 2638
+      }
+     }
+    },
+    {
+     "date": "2026-10-14",
+     "by": {
+      "learn": {
+       "cost": 0.5974,
+       "tokens": 254447,
+       "output": 2242
+      },
+      "mac": {
+       "cost": 0.1058,
+       "tokens": 277432,
+       "output": 1218
+      }
+     }
     }
    ],
    "totals": {
-    "cost": 346.9126,
-    "tokens": 1029782480,
-    "input": 4726,
-    "output": 1961706,
-    "cache_write": 13216308,
-    "cache_read": 1014599740,
-    "turns": 334
+    "cost": 348.721,
+    "tokens": 1031806071,
+    "input": 4782,
+    "output": 1970010,
+    "cache_write": 13375167,
+    "cache_read": 1016456112,
+    "turns": 348
    },
    "models": [
     {
@@ -835,10 +875,10 @@
      "maker": "Anthropic",
      "family": "opus",
      "priced": true,
-     "cost": 346.2095,
-     "tokens": 1027706829,
-     "output": 1961264,
-     "replies": 2255
+     "cost": 348.018,
+     "tokens": 1029730420,
+     "output": 1969568,
+     "replies": 2283
     },
     {
      "id": "claude-sonnet-5-5",
@@ -852,7 +892,7 @@
      "replies": 22
     }
    ],
-   "alignment": 0.586,
+   "alignment": 0.584,
    "roadmap": {
     "items": [
      {
