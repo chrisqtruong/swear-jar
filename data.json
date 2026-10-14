@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-14T20:51:37+00:00",
+ "generated": "2026-10-14T21:11:46+00:00",
  "live": false,
  "machines": 1,
  "pricing": {
@@ -110,10 +110,10 @@
     "name": "Everything else",
     "color": "#7d7699",
     "theme": "",
-    "cost": 101.2061,
-    "tokens": 181092267,
-    "output": 1109746,
-    "turns": 239
+    "cost": 101.3018,
+    "tokens": 181296393,
+    "output": 1111181,
+    "turns": 240
    }
   ],
   "themes": [],
@@ -427,9 +427,9 @@
       "output": 12249
      },
      "other": {
-      "cost": 7.0066,
-      "tokens": 4257479,
-      "output": 4344
+      "cost": 7.1023,
+      "tokens": 4461605,
+      "output": 5779
      },
      "bankrolled": {
       "cost": 2.1447,
@@ -440,13 +440,13 @@
    }
   ],
   "totals": {
-   "cost": 1398.7093,
-   "tokens": 3951216377,
-   "input": 18315,
-   "output": 8271842,
-   "cache_write": 58143894,
-   "cache_read": 3884782326,
-   "turns": 1023
+   "cost": 1398.805,
+   "tokens": 3951420503,
+   "input": 18319,
+   "output": 8273277,
+   "cache_write": 58147290,
+   "cache_read": 3884981617,
+   "turns": 1024
   },
   "models": [
    {
@@ -488,10 +488,10 @@
     "maker": "Anthropic",
     "family": "haiku",
     "priced": false,
-    "cost": 4.2029,
-    "tokens": 2005765,
-    "output": 27727,
-    "replies": 31
+    "cost": 4.2986,
+    "tokens": 2209891,
+    "output": 29162,
+    "replies": 33
    },
    {
     "id": "claude-sonnet-5-5",
