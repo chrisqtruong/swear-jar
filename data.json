@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-14T14:16:46+00:00",
+ "generated": "2026-10-14T14:21:49+00:00",
  "live": false,
  "machines": 1,
  "pricing": {
@@ -20,10 +20,10 @@
     "name": "Vox2",
     "color": "#4dd2ff",
     "theme": "",
-    "cost": 348.721,
-    "tokens": 1031806071,
-    "output": 1970010,
-    "turns": 348
+    "cost": 349.6454,
+    "tokens": 1032698263,
+    "output": 1978799,
+    "turns": 349
    },
    {
     "id": "purrmodoro",
@@ -70,10 +70,10 @@
     "name": "Bankrolled",
     "color": "#9b6bff",
     "theme": "",
-    "cost": 15.527,
-    "tokens": 29625173,
-    "output": 30132,
-    "turns": 3
+    "cost": 15.7058,
+    "tokens": 29930457,
+    "output": 30361,
+    "turns": 4
    },
    {
     "id": "simplebar",
@@ -422,26 +422,31 @@
     "date": "2026-10-14",
     "by": {
      "vox2": {
-      "cost": 0.7033,
-      "tokens": 531879,
-      "output": 3460
+      "cost": 1.6276,
+      "tokens": 1424071,
+      "output": 12249
      },
      "other": {
       "cost": 6.1473,
       "tokens": 4075366,
       "output": 1530
+     },
+     "bankrolled": {
+      "cost": 0.1788,
+      "tokens": 305284,
+      "output": 229
      }
     }
    }
   ],
   "totals": {
-   "cost": 1394.7809,
-   "tokens": 3945322564,
-   "input": 18189,
-   "output": 8236220,
-   "cache_write": 57809786,
-   "cache_read": 3879258369,
-   "turns": 1013
+   "cost": 1395.884,
+   "tokens": 3946520040,
+   "input": 18233,
+   "output": 8245238,
+   "cache_write": 57944909,
+   "cache_read": 3880311660,
+   "turns": 1015
   },
   "models": [
    {
@@ -450,10 +455,10 @@
     "maker": "Anthropic",
     "family": "opus",
     "priced": true,
-    "cost": 1360.0182,
-    "tokens": 3878744022,
-    "output": 7649339,
-    "replies": 8499
+    "cost": 1361.1214,
+    "tokens": 3879941498,
+    "output": 7658357,
+    "replies": 8520
    },
    {
     "id": "claude-sonnet-5",
@@ -553,10 +558,10 @@
      "name": "Mac version",
      "color": "#9b6bff",
      "theme": "reach",
-     "cost": 17.8992,
-     "tokens": 52480566,
-     "output": 118217,
-     "turns": 24
+     "cost": 18.8236,
+     "tokens": 53372758,
+     "output": 127006,
+     "turns": 25
     },
     {
      "id": "bugs",
@@ -607,7 +612,7 @@
      "roadmap": true,
      "cost": 69.9874,
      "value_share": 0.424,
-     "gap": 0.08
+     "gap": 0.082
     },
     {
      "id": "daily",
@@ -616,16 +621,16 @@
      "roadmap": true,
      "cost": 115.6202,
      "value_share": 0.495,
-     "gap": -0.073
+     "gap": -0.071
     },
     {
      "id": "reach",
      "name": "Reach more people",
      "blurb": "Mac, Intel, signed installers: Vox2 on more computers.",
      "roadmap": true,
-     "cost": 17.8992,
+     "cost": 18.8236,
      "value_share": 0.081,
-     "gap": -0.007
+     "gap": -0.011
     },
     {
      "id": "upkeep",
@@ -852,21 +857,21 @@
        "output": 2242
       },
       "mac": {
-       "cost": 0.1058,
-       "tokens": 277432,
-       "output": 1218
+       "cost": 1.0302,
+       "tokens": 1169624,
+       "output": 10007
       }
      }
     }
    ],
    "totals": {
-    "cost": 348.721,
-    "tokens": 1031806071,
-    "input": 4782,
-    "output": 1970010,
-    "cache_write": 13375167,
-    "cache_read": 1016456112,
-    "turns": 348
+    "cost": 349.6454,
+    "tokens": 1032698263,
+    "input": 4814,
+    "output": 1978799,
+    "cache_write": 13490477,
+    "cache_read": 1017224173,
+    "turns": 349
    },
    "models": [
     {
@@ -875,10 +880,10 @@
      "maker": "Anthropic",
      "family": "opus",
      "priced": true,
-     "cost": 348.018,
-     "tokens": 1029730420,
-     "output": 1969568,
-     "replies": 2283
+     "cost": 348.9423,
+     "tokens": 1030622612,
+     "output": 1978357,
+     "replies": 2299
     },
     {
      "id": "claude-sonnet-5-5",
@@ -892,7 +897,7 @@
      "replies": 22
     }
    ],
-   "alignment": 0.584,
+   "alignment": 0.585,
    "roadmap": {
     "items": [
      {
@@ -2055,17 +2060,17 @@
    "id": "bankrolled",
    "color": "#9b6bff",
    "product": "Bankrolled",
-   "sessions": 2,
+   "sessions": 3,
    "buckets": [
     {
      "id": "features",
      "name": "Features & UI",
      "color": "#4dd2ff",
      "theme": "build",
-     "cost": 0.0,
-     "tokens": 0,
-     "output": 0,
-     "turns": 0
+     "cost": 0.1788,
+     "tokens": 305284,
+     "output": 229,
+     "turns": 1
     },
     {
      "id": "bugs",
@@ -2134,9 +2139,9 @@
      "name": "Building the product",
      "blurb": "New features and making them better.",
      "roadmap": true,
-     "cost": 0.0,
+     "cost": 0.1788,
      "value_share": 0.0,
-     "gap": 0.0
+     "gap": -1.0
     },
     {
      "id": "upkeep",
@@ -2178,16 +2183,26 @@
        "output": 808
       }
      }
+    },
+    {
+     "date": "2026-10-14",
+     "by": {
+      "features": {
+       "cost": 0.1788,
+       "tokens": 305284,
+       "output": 229
+      }
+     }
     }
    ],
    "totals": {
-    "cost": 15.527,
-    "tokens": 29625173,
-    "input": 102,
-    "output": 30132,
-    "cache_write": 1154478,
-    "cache_read": 28440461,
-    "turns": 3
+    "cost": 15.7058,
+    "tokens": 29930457,
+    "input": 114,
+    "output": 30361,
+    "cache_write": 1174291,
+    "cache_read": 28725691,
+    "turns": 4
    },
    "models": [
     {
@@ -2196,13 +2211,13 @@
      "maker": "Anthropic",
      "family": "opus",
      "priced": true,
-     "cost": 15.527,
-     "tokens": 29625173,
-     "output": 30132,
-     "replies": 51
+     "cost": 15.7058,
+     "tokens": 29930457,
+     "output": 30361,
+     "replies": 56
     }
    ],
-   "alignment": 0.0,
+   "alignment": 0.011,
    "roadmap": {
     "items": [],
     "done": []
